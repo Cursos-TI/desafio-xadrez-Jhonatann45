@@ -2,6 +2,9 @@
 
 int main(){
 
+
+
+
  
   // torre movimenta 5 casa para a direita
   printf("A Torre: movimenta 5 casas para a direita.");
@@ -24,6 +27,16 @@ for (int i = 0; i < 8; i++)
 {
  printf("Esquerda\n");
 }
+
+
+// Cavalo  pode se mover 3 casas em L(cima,cima,esquerda)
+printf("O Cavalo: Movimenta casas em L\n");
+for (int i = 0; i < 2; i++)
+{
+ printf("Cima\n");
+}
+printf("Esquerda\n");
+
 
 return 0;
   }
